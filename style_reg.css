@@ -15,6 +15,7 @@ h1 {
 fieldset {
     width: 30vw;
     border: 0.2vw solid #04AA6D;
+    background-color: #04AA6D;
 }
 
 input {
