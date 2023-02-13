@@ -446,6 +446,6 @@ and (max-device-width : 420px) {
     }
 
     .copyright {
-        font-size: 3vh;
+        font-size: 3vw;
     }
 }
