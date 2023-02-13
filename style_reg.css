@@ -14,10 +14,7 @@ h1 {
 
 fieldset {
     width: 30vw;
-    border: 0.25vw solid green;
-}
-.web-up {
-    background-color: #04AA6D;
+    border: 0.2vw solid #04AA6D;
 }
 
 input {
@@ -67,9 +64,7 @@ fieldset.web-up {
 .main-page-link {
     text-decoration: none;
     font-size: 2.5vw;
-/*     color: #04AA6D; */
-    color: white;
-    text-shadow: -0.1vw -0.1vw 0 #000, 0.1vw -0.1vw 0 #000, -0.1vw 0.1vw 0 #000, 0.1vw 0.1vw 0 #000;
+    color: #04AA6D;
 }
 
 .main-page-link:visited, .main-page-link:hover, .main-page-link:active {

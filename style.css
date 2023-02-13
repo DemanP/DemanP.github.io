@@ -16,7 +16,8 @@ and (min-device-width : 1000px) {
         border: 0.25vw solid green;
     }
     fieldset.web-up {
-        height: 5vw;
+        height: 10vh;
+        /* height: 5vw; */
         background-color: #04AA6D;
         font-size: 0.1vw;
     }
@@ -57,7 +58,7 @@ and (min-device-width : 1000px) {
         font-size: 1.25vw;
         padding: 0.25vw 1vw;
         width: 7.1vw;
-        height: 1.5vw;
+        height: 1.5vh;
         text-decoration: none;
         display: block;
     }
@@ -87,15 +88,25 @@ and (min-device-width : 1000px) {
     .main-page-link:visited, .main-page-link:hover, .main-page-link:active {
         color: white;
         text-shadow: -0.1vw -0.1vw 0 #000, 0.1vw -0.1vw 0 #000, -0.1vw 0.1vw 0 #000, 0.1vw 0.1vw 0 #000;
-        /* -webkit-text-stroke: 0.2vw solid black; */
     }
 
+    /* .reg_btn {
+        background-color: #04AA6D;
+        color: white;
+        font-size: 5.5vw;
+        width: 8vw;
+        height: 2.75vw;
+        border-color: transparent;
+    }
+    .reg_btn:hover {
+        background-color: #3e8e41;
+    } */
     .reg_btn {
         background-color: #04AA6D;
         color: white;
         font-size: 1.5vw;
-        /* width: 8vw;
-        height: 2.75vw; */
+        width: 8vw;
+        height: 2.75vw;
         width: 8%;
         height: 2.75%;
         border-color: transparent;
@@ -109,13 +120,13 @@ and (min-device-width : 1000px) {
 
 
 
-    br.macro { display: block; margin: 0.25vw 0; content: " "; }
-    br.mini { display: block; margin: 0.5vw 0; content: " "; }
-    br.one { display: block; margin: 1vw 0; content: " "; }
-    br.small { display: block; margin: 1.5vw 0; content: " "; }
-    br.medium { display: block; margin: 3vw 0; content: " "; }
-    br.big { display: block; margin: 5vw 0; content: " "; }
-    br.x-big { display: block; margin: 10vw 0; content: " "; }
+    br.macro { display: block; margin: 0.25vh 0; content: " "; }
+    br.mini { display: block; margin: 0.5vh 0; content: " "; }
+    br.one { display: block; margin: 1vh 0; content: " "; }
+    br.small { display: block; margin: 1.5vh 0; content: " "; }
+    br.medium { display: block; margin: 3vh 0; content: " "; }
+    br.big { display: block; margin: 5vh 0; content: " "; }
+    br.x-big { display: block; margin: 10vh 0; content: " "; }
 
 
 
@@ -203,7 +214,7 @@ and (min-device-width : 1000px) {
         margin-left: 30vw;
     }
     .end {
-        margin-left: 90%;
+        right: 1vw;
     }
     .bottom {
         position: fixed;
@@ -234,7 +245,7 @@ and (max-device-width : 420px) {
         border: 0.5vw solid green;
     }
     fieldset.web-up {
-        height: 10vw;
+        height: 10vh;
         background-color: #04AA6D;
         font-size: 0.1vw;
     }
@@ -318,8 +329,8 @@ and (max-device-width : 420px) {
         background-color: #04AA6D;
         color: white;
         font-size: 1.5vw;
-        /* width: 8vw;
-        height: 2.75vw; */
+        width: 8vw;
+        height: 2.75vw;
         width: 8%;
         height: 2.75%;
         border-color: transparent;
@@ -333,13 +344,13 @@ and (max-device-width : 420px) {
 
 
 
-    br.macro { display: block; margin: 0.25vw 0; content: " "; }
-    br.mini { display: block; margin: 0.5vw 0; content: " "; }
-    br.one { display: block; margin: 1vw 0; content: " "; }
-    br.small { display: block; margin: 1.5vw 0; content: " "; }
-    br.medium { display: block; margin: 3vw 0; content: " "; }
-    br.big { display: block; margin: 5vw 0; content: " "; }
-    br.x-big { display: block; margin: 10vw 0; content: " "; }
+    br.macro { display: block; margin: 0.25vh 0; content: " "; }
+    br.mini { display: block; margin: 0.5vh 0; content: " "; }
+    br.one { display: block; margin: 1vh 0; content: " "; }
+    br.small { display: block; margin: 3vh 0; content: " "; }
+    br.medium { display: block; margin: 3vh 0; content: " "; }
+    br.big { display: block; margin: 5vh 0; content: " "; }
+    br.x-big { display: block; margin: 10vh 0; content: " "; }
 
 
 
@@ -427,7 +438,7 @@ and (max-device-width : 420px) {
         margin-left: 30vw;
     }
     .end {
-        margin-left: 80%;
+        right: 0;
     }
     .bottom {
         position: fixed;
@@ -435,6 +446,6 @@ and (max-device-width : 420px) {
     }
 
     .copyright {
-        font-size: 3vw;
+        font-size: 3vh;
     }
 }
